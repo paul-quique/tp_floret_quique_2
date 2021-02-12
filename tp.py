@@ -64,3 +64,12 @@
 
 # --- --- --- Une fonction sort pour les chaînes
 
+# --- --- Question 1
+
+def sort(st):
+    # Transformer la chaîne en liste
+    stbuffr = list(st)
+    # Trier la liste 
+    stbuffr.sort()
+    # Reconstituer et renvoyer la chaîne triée
+    return "".join(stbuffr)
